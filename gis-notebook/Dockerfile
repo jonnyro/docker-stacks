@@ -42,6 +42,7 @@ RUN conda install --quiet --yes \
     'sympy=1.4*' \
     'vincent=0.4.*' \
     'xlrd' \
+    'boto3' \
     && \
     conda clean --all -f -y && \
     # Activate ipywidgets extension in the environment that runs the notebook server
